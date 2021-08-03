@@ -12,7 +12,7 @@ import { MenuProfileComponent } from './_components/menu-profile/menu-profile.co
     AppComponent,
     MyInformationComponent,
     ContentProfileComponent,
-    MenuProfileComponent
+    MenuProfileComponent,
   ],
   imports: [
     BrowserModule,
