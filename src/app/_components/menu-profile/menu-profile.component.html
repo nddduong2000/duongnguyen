@@ -1,7 +1,13 @@
-<div class="menu">
-  <div class="menu-option menu-home" routerLink="">Home</div>
-  <div class="menu-option" routerLink="/about">About</div>
-  <div class="menu-option">Other</div>
+<div id="menuID" class="menu" >
+  <div class="menu-option" id="home" (click)="onClick('')">
+    Home
+  </div>
+  <div class="menu-option" id="about" (click)="onClick('/about')">
+    About
+  </div>
+  <div class="menu-option" id="other" (click)="onClick('/other')">
+    Other
+  </div>
 </div>
 <div class="menu mt-2">
   <div class="icoin-option">

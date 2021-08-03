@@ -7,9 +7,7 @@
   padding: 10px 20px;
   font-weight: 500;
   cursor: pointer;
-}
-.menu-option:hover {
-  background: #e0e0eb;
+  background-color: #ffffff;
 }
 .menu-home {
   border-bottom: 2px solid red;
@@ -17,4 +15,14 @@
 .icoin-option {
   padding: 10px 30px;
   cursor: pointer;
+}
+
+.menu .menu-option:hover{
+  color:#EE0033 !important;
+  border-bottom: 2px solid #EE0033;
+  background-color: #fff6f9;
+}
+.active {
+  color:#EE0033 !important;
+  border-bottom: 2px solid #EE0033;
 }

@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 
 declare var $: any;
 @Component({
-  selector: 'app-my-information',
-  templateUrl: './my-information.component.html',
-  styleUrls: ['./my-information.component.scss']
+  selector: 'app-other-profile',
+  templateUrl: './other-profile.component.html',
+  styleUrls: ['./other-profile.component.scss']
 })
-export class MyInformationComponent implements OnInit {
+export class OtherProfileComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
-    this.setActiveMenu('home');
+    this.setActiveMenu('other');
   }
   setActiveMenu(id) {
     $("#sidebar .nav-link").removeClass("active");
@@ -19,5 +19,4 @@ export class MyInformationComponent implements OnInit {
     $("#" + id).addClass("active");
     $("#" + id).closest(".collapse").addClass("show");
   }
-
 }
